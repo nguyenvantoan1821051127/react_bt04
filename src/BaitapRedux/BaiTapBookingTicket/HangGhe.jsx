@@ -40,7 +40,7 @@ import { datGheAction } from '../../redux/actions/BaiTapDatVeAction';
   }
   renderHangGhe=()=>{
     if(this.props.soHangGhe===0){
-      return <div className='ml-4'>
+      return <div className='ms-2 '>
           {this.props.hangGhe.hang}{this.renderSoHang()}
       </div>
     }else{
@@ -54,7 +54,7 @@ import { datGheAction } from '../../redux/actions/BaiTapDatVeAction';
 
   render() {
     return (
-      <div className='text-light text-start mt-1 ml-5' style={{fontSize:'20px'}}>
+      <div className='text-light text-start mt-1 ms-1 ' style={{fontSize:'20px',height:'39px'}}>
         {this.renderHangGhe()}
       </div>
     )

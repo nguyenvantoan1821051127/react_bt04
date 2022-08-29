@@ -6,7 +6,7 @@ class ThongTinDatGhe extends Component {
   render() {
     return (
         <div>
-            <div className='mt-5'>
+            <div className='mt-5 '>
                 <button className='gheDuocChon'></button>
                 <span className='text-light' style={{fontSize:'30px'}}>ghe da dat</span>
                 <br />
@@ -16,7 +16,7 @@ class ThongTinDatGhe extends Component {
                 <button className='ghe'></button>
                 <span className='text-light' style={{fontSize:'30px'}}>ghe chua dat</span>
             </div>
-            <div className='mt-5'>
+            <div className='mt-5 '>
                 <table className='table'border='2'>
                     <thead>
                         <tr className='text-light' style={{fontSize:'30px'}}>

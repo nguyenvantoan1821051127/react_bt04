@@ -21,7 +21,7 @@ export default class BaiTapBookingTicket extends Component {
           <div style={{position:'fixed',width:'100%',height:'100%',backgroundColor:'rgba(0,0,0,0.6)'}}>
               <div className="container">
                 <div className="row">
-                  <div className="col-8 text-center">
+                  <div className="col-8 text-center ">
                     <div className='display-4 text-warning'>
                     ĐẶT VÉ XEM PHIM CYBERLEARN.VN
                     </div>
