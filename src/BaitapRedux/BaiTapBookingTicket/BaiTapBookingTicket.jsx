@@ -16,9 +16,9 @@ export default class BaiTapBookingTicket extends Component {
   
   render() {
     return (
-      <div className='bookingMovie' style={{position:'fixed',width:'100%',height:'100%',
+      <div className='bookingMovie' style={{width:'100%',height:'100%',
       backgroundImage:"url('./img/bookingTicket/bgmovie.jpg')",backgroundSize:'100%'}}>
-          <div style={{position:'fixed',width:'100%',height:'100%',backgroundColor:'rgba(0,0,0,0.6)'}}>
+          <div style={{width:'100%',height:'100%',backgroundColor:'rgba(0,0,0,0.6)'}}>
               <div className="container">
                 <div className="row">
                   <div className="col-8 text-center ">
